@@ -1,3 +1,3 @@
 # CV-Portfolio
 
-asd
+Zamieszczone tu zostały przykłady prac wykonanych
