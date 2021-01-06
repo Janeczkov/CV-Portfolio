@@ -1,29 +1,3 @@
----------------------------------
-------- Zao Muggy Plains --------
-----------](HARDCORE)[-----------
---- By Xiaospike & Joshwa534 ----
------------ Enjoy!!! ------------
----------------------------------
-
---[[
-100% AFK Zao Muggy Plains for Paladins Youtube:
-http://www.youtube.com/watch?v=he_a_uSfWM0
-]]
-
---------- DP SETUP ----------
--- [DP 1] -- Cascade this.
--- [DP 2] -- Cascade this.
--- [DP 3] -- Cascade this.
--- [DP 4] -- Cascade this.
--- [DP 5] -- Cascade this.
-
---------- BP SETUP ----------
--- [BP 1] -- Main
--- [BP 2] -- Ammo
--- [BP 3] -- Products
--- [BP 4] -- Rares
--- [BP 5] -- Gold
-
 ------ REFILL SETTINGS ------
 local MinMana = 40 	--- How many mana potions until you leave the hunt?
 local destcap = 1800 	--- How many cap you begin the hunt with?
@@ -68,7 +42,6 @@ local Skill = 'distance' --- What skill do you want to train? (sword, club, axe,
 local summon = true
 local ezoduslowhunt = false
 local Ghastlies = false
-local BEASTMODE = true --- How Beast Are You? (Level 200+ if full spawn)
 local useamulet = true
 local werewolf = 22134 --werewolf
 local amulet = 23542 --blue plasma
@@ -134,8 +107,6 @@ lootbp = Container.New(0)
 Targeting.Start()
 Looter.Start()
 
-print([[
-~ JECHANKA ~]])
 
 if Softboots then
 	Module.New("Soft", function(Soft)
